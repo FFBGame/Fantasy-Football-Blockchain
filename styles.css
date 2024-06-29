@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background: #555;
+}
+
+.login-btn {
+    background: #ff6b6b;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('Images/Arsenal.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px; /* Adjust to compensate for fixed header */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-btn {
+    background: #ff6b6b;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background: #ff4c4c;
+}
+
+.features, .how-it-works, .about, .contact, .footer {
+    padding: 4em 1em;
+    text-align: center;
+    margin-top: 60px; /* Adjust to compensate for fixed header */
+}
+
+.features h2, .how-it-works h2, .about h2, .contact h2, .footer h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+.steps {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.step {
+    background: #f4f4f4;
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.step p {
+    font-size: 1em;
+}
+
+.about p {
+    font-size: 1em;
+    max-width: 800px;
+    margin: 0 auto 2em;
+}
+
+.contact p {
+    font-size: 1em;
+    max-width: 800px;
+    margin: 0 auto 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact-form label {
+    font-size: 1em;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #ff6b6b;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #ff4c4c;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.footer-content p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0;
+}
+
+.social-links a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 1.5em;
+}
